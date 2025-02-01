@@ -1,4 +1,4 @@
-streamlit==1.23.0
+streamlit
 matplotlib  # or the version you prefer
 scikit-learn
 tensorflow  # or whatever other versions you're using
