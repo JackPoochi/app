@@ -39,9 +39,9 @@ def login_page():
             st.success("Login Successful!")
             st.session_state.logged_in = True
             # Redirect to the next page after successful login
-            st.experimental_rerun()
-        else:
-            st.error("Invalid username or password.")
+         #   st.experimental_rerun()
+       # else:
+       #     st.error("Invalid username or password.")
 
 # Food Recognition (Page 1)
 @st.cache_resource
